@@ -1,0 +1,11 @@
+This is a list of desired lidar features:
+
+>>Variable to filter out min and max angles
+     --This will help with how many beds to count
+     
+>>Visual screen that shows laser line and updates with slider for min and max angles 
+     --Would be much easier to set min and max angles to have live data from the lidar
+     
+>>Option to find the beds or the furrows
+     --If lidar is used on beds with plants already growing it might be better to follow the furrow then the bed. Missing plants or uneven
+     planting could cause false edges.
