@@ -8,12 +8,12 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-def read_data(fname):
+def read_data(filename):
     angle = []
     distance = []
     quality = []
 
-    with open(fname, mode='r') as file:
+    with open(filename, mode='r') as file:
         for _ in range(3):
             next(file)
         for line in file:
